@@ -1,8 +1,13 @@
 ---
-import aena from "../assets/landing_wifi.jpg";
+import { Image } from "astro:assets";
 ---
 
-<img src={aena.src} alt="AENA Mail Wifi" />
+<Image
+  src="https://blimey.hel1.your-objectstorage.com/landing_wifi_1dc1d0c812.webp"
+  alt="AENA Mail Wifi"
+  inferSize
+  priority
+/>
 
 <style>
   html,
